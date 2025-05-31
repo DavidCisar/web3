@@ -21,6 +21,7 @@ The goal is to **consolidate key learnings, tools, and reusable templates** to a
 
 The repository is organized into self-contained modules:
 
+<p>
 web3/
 ├── frontend/ # React, Angular, Svelte templates (ethers, wagmi, etc.)
 ├── networks/ # Public testnets, private localnets (e.g. Hardhat)
@@ -34,7 +35,7 @@ web3/
 ├── wallets
 ├── zero knowledge
 └── changelogs/ # Manual + auto-generated logs for each module
-
+</p>
 
 ---
 
