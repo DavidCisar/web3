@@ -1,3 +1,5 @@
+<h1> All Things Web3  </h1>
+
 <p align="center">
   <img src="https://img.shields.io/github/stars/DavidCisar/web3?style=social" />
   <img src="https://img.shields.io/github/license/DavidCisar/web3" />
