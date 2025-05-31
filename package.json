@@ -1,0 +1,23 @@
+{
+  "name": "web3",
+  "version": "0.0.1-beta",
+  "description": "A comprehensive and modular repository for all things Web3: frontend templates, smart contracts, ZK, oracles, networks, and more.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidCisar/web3.git"
+  },
+  "keywords": [
+    "web3",
+    "blockchain",
+    "smart-contracts",
+    "ethers",
+    "wagmi",
+    "zk",
+    "oracles",
+    "hardhat",
+    "foundry"
+  ],
+  "author": "David Cisar",
+  "private": false
+}
