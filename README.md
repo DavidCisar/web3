@@ -22,7 +22,7 @@ The goal is to **consolidate key learnings, tools, and reusable templates** to a
 The repository is organized into self-contained modules:
 
 <p>
-web3/
+web3/ <br>
 ├── frontend/ # React, Angular, Svelte templates (ethers, wagmi, etc.) <br>
 ├── networks/ # Public testnets, private localnets (e.g. Hardhat) <br>
 ├── nodes <br>
