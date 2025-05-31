@@ -23,18 +23,18 @@ The repository is organized into self-contained modules:
 
 <p>
 web3/
-├── frontend/ # React, Angular, Svelte templates (ethers, wagmi, etc.)
-├── networks/ # Public testnets, private localnets (e.g. Hardhat)
-├── nodes
-├── oracles/ # Chainlink, Band, custom data feeds
-├── protocols/ # Staking, Lending, Voting, Token Standards, DEXs
-├── research/ # Papers, references, whitepapers, blog links
-├── security/ # Static analysis tools, audit tips, reentrancy patterns
-├── smart-contracts/ # Solidity, Vyper, Yul, EVM Assembly, deployment
-├── tooling
-├── wallets
-├── zero knowledge
-└── changelogs/ # Manual + auto-generated logs for each module
+├── frontend/ # React, Angular, Svelte templates (ethers, wagmi, etc.) <br>
+├── networks/ # Public testnets, private localnets (e.g. Hardhat) <br>
+├── nodes <br>
+├── oracles/ # Chainlink, Band, custom data feeds <br>
+├── protocols/ # Staking, Lending, Voting, Token Standards, DEXs <br>
+├── research/ # Papers, references, whitepapers, blog links <br>
+├── security/ # Static analysis tools, audit tips, reentrancy patterns <br>
+├── smart-contracts/ # Solidity, Vyper, Yul, EVM Assembly, deployment <br>
+├── tooling <br>
+├── wallets <br>
+├── zero knowledge <br>
+└── changelogs/ # Manual + auto-generated logs for each module <br>
 </p>
 
 ---
