@@ -1,4 +1,4 @@
-<h1> All Things Web3  </h1>
+<h1 align="center"> All Things Web3  </h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/DavidCisar/web3?style=social" />
