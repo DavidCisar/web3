@@ -58,8 +58,7 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for style, format, and lint instructi
 ## 📖 Versioning & Changelogs
 
 This project tracks:
-- 🔢 Manual changelogs per module (`/changelogs/MODULE.md`)
-- 📦 Central changelog with version map (`/changelogs/VERSIONS.md`)
+- 🔢 Manual changelogs per module (`/MODULE/changelog.md`)
 - 🤖 Optional: Automated changelog from commit metadata (coming soon)
 
 Current version: **`0.0.1-beta`**
