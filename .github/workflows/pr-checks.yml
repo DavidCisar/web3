@@ -1,0 +1,24 @@
+name: PR Checks
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lint commit messages
+        run: node scripts/lint-commits.js
+
+  enforce-single-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for single commit
+        run: |
+          commits=$(gh pr view ${{ github.event.pull_request.number }} --json commits --jq '.commits | length')
+          if [ "$commits" -ne 1 ]; then
+            echo "PR must have exactly one commit (squashed). Found $commits."
+            exit 1
+          fi
