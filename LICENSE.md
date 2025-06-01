@@ -1,4 +1,4 @@
-License: MIT
+license: MIT
 
 Copyright (c) 2025 David Cisar
 
